@@ -4,11 +4,13 @@
 
 ## [描述](https://github.com/qitas/IoT4Pi/wiki) 
 
+基于单板计算设备的IoT通信实施
 
 ## [组成](qitas/)
 
-#### [MQTT](MQTT/)
+#### [MQTT通信](MQTT/)
 
+#### [socket通信](socket/)
 
 
 ---
