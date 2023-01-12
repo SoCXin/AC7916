@@ -1,0 +1,35 @@
+{
+    "type":"SoC",
+    "name":"AC7916",
+    "title": "jieli AC7916 SoC",
+    "description":"jieli Wi-Fi/BT SoC",
+    "Core": {
+        "CoreNum": 2,
+        "Core":"RISC-V",
+        "Fmax":320,
+        "DMIPS": 700,
+        "CoreMark": 1600
+    },
+    "manufacturer": {
+        "vendor":"jieli",
+        "homepage":"https://www.zh-jieli.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/AC7916.git"
+    },
+    "version":"1.0.0",
+    "series":["AC7916"],
+    "package":["QFN48"],
+    "peripheral": ["Wi-Fi","BLE","Audio","SDIO","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "keywords": [
+        "RISC-V",
+        "jieli",
+        "Wi-Fi","BLE","ADC","I2S","CAN","I2C","RTC","SPI","UART",
+        "3.6V","1.8V"
+    ]
+}

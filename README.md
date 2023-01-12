@@ -1,21 +1,30 @@
-﻿# [IoT4Pi](https://github.com/qitas/IoT4Pi) 
+﻿# [AC7916](https://doc.soc.xin/jieli/AC7916)
 
-#### qitas@qitas.cn
+* [jieli](https://www.zh-jieli.com/): [RISC-V](https://github.com/SoCXin/RISC-V)
+* [L4R4](https://github.com/SoCXin/Level): 2x 320 MHz
 
-## [描述](https://github.com/qitas/IoT4Pi/wiki) 
+### [简介](https://github.com/SoCXin/AC7916/wiki)
 
-基于单板计算设备的IoT通信实施
+[AC7916](https://github.com/SoCXin/AC7916)
 
-## [组成](qitas/)
+### 关键参数
 
-#### [MQTT通信](MQTT/)
+* 320 MHz RISC-V Dual Core，浮点DSP处理器
+* 片上集成了共578K字节SRAM，部分封装支持2/8M字节SDRABM
+* Wi-Fi 802.11b/g/n
+* BT + BLE 双模（支持蓝牙EDR、蓝牙BLE5.2）
+* 支持DVP/BT656图像传感器，最大支持720P分辨率
+* 支持ADC、DAC、LINEIN、IIS、PDM、SPDIF音频接口，多种音效处理，双麦克风打断唤醒
+* 支持RGB888(8bit)/RGB666(6bit)等多种推屏接口，可达320*240@30fps
 
-#### [socket通信](socket/)
+### [资源收录](https://github.com/SoCXin)
 
+* [参考资源](src/)
+* [参考文档](docs/)
+* [参考工程](project/)
 
----
+### [选型建议](https://github.com/SoCXin/AC7916)
 
-### 锻造最美之器
+[AC7916](https://github.com/SoCXin/AC7916)
 
-[![sites](qitas/qitas.png)](http://www.qitas.cn)
-
+### [www.SoC.xin](http://www.SoC.Xin)
